@@ -116,7 +116,8 @@
 @media screen and (max-width: 500px) {
   .navbar1 a {
     float: none;
-    display: block;
+    display:inline-block;
+
   }
 }
 .logo img{
@@ -160,6 +161,9 @@
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   
  
+}
+.heading:hover{
+  text-decoration:overline;
 }
 
 
@@ -206,11 +210,51 @@ div.desc {
     width: 100%;
   }
 }
-@media only screen and (max-width: 100px) {
-  .footer {
-    width: 100%;
+/* responsive footer */
+@media only screen and (max-width: 740px) {
+  .footer .navbar-right{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+ 
+  .footer-content {
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer-content1{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer-content2{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
   }
 }
+@media (max-width:555px) {
+  .footer .navbar-right{
+    width: 100%;
+  
+  }
+  .footer-content{
+    width: 100%;
+    
+  }
+  .footer-content1{
+    width: 100%;
+  
+  }
+  .footer-content2{
+    width: 100%;
+   
+  }
+  
+}
+
+
 
 .clearfix:after {
   content: "";
@@ -219,22 +263,48 @@ div.desc {
 }
 .footer{
   display: flex;
-  /* margin-top: 20px; */
-  /* margin-left: 20px; */
-  color: rgb(238, 11, 11);
-  text-decoration: none;
-  column-gap:90px;
-  
-  
+  flex-wrap:wrap;
+  margin-top: auto;
+  background-color: #f1eff4;
  
+
 }
 footer a{
   text-decoration: none;
   color: rgb(238, 11, 11);
   font-size: 18px;
-  
-  
 }
+.footer .navbar-right{
+  width: 24%;
+  }
+.footer-content{
+width: 24%;
+}
+.footer-content1{
+  width: 24%;
+}
+.footer-content2{
+  width: 24%;
+}
+
+
+.footer-content a{
+  position: relative;
+  margin-bottom: 30px;
+
+  }
+  .footer-content1 a{
+    position: relative;
+  margin-bottom: 30px;
+  }
+  .footer-content2 a{
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  
+
+/* }
 .footer-content a{
   
   font-weight: bold;
@@ -244,8 +314,8 @@ footer a{
 
 .footer-content a:hover{
   text-decoration: underline;
-}
-.footer-content1 a:hover{
+} */
+/* .footer-content1 a:hover{
   text-decoration: underline;
 }
 .footer-content2 a:hover{
@@ -259,17 +329,24 @@ footer a{
   
   
  
-}
+} */
 
-footer{
+/* footer{
   
   width: 100%;
   background-color: #f1eff4;
   height: 300px;
 
   
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+  text-align: center;
+
+  
  
-}
+} */
 .icons{
  display: flex;
  padding: 20px;
