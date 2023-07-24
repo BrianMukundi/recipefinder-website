@@ -212,43 +212,49 @@ div.desc {
 }
 /* responsive footer */
 @media only screen and (max-width: 740px) {
+  
   .footer .navbar-right{
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
  
   .footer-content {
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
   .footer-content1{
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
   .footer-content2{
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px;
     text-align: center;
   }
 }
 @media (max-width:555px) {
+  
   .footer .navbar-right{
     width: 100%;
+  
   
   }
   .footer-content{
     width: 100%;
     
+    
   }
   .footer-content1{
     width: 100%;
+    text-align: center;
   
   }
   .footer-content2{
     width: 100%;
+    
    
   }
   
@@ -300,6 +306,15 @@ width: 24%;
   .footer-content2 a{
     position: relative;
     margin-bottom: 30px;
+  }
+  .footer-content a:hover{
+    text-decoration: underline;
+  } 
+  .footer-content1 a:hover{
+    text-decoration: underline;
+  }
+  .footer-content2 a:hover{
+    text-decoration: underline;
   }
 
   
