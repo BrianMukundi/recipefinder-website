@@ -3,7 +3,7 @@
 -users also can get a platform where they post recipes.
 -also an admin panel will be available where the admin can control users and recipes.
 
-*images only on breakfast category as of 24/07/2023
+*images only on breakfast and lunch categories.
 
 *PREVIEW LINK:
 https://msosii.netlify.app/home.html
